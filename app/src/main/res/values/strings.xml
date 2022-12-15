@@ -1,0 +1,14 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_poster">movie_poster</string>
+    <string name="common_reviews">Reviews</string>
+    <string name="common_videos">Videos</string>
+    <string name="about_movie">About Movie</string>
+    <string name="movie_runtime">%d Minutes</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lectus justo, semper sit amet quam ac, eleifend porta massa. Duis vel magna sed leo vehicula mollis ut eu neque. Aenean fringilla, tortor vel mollis elementum, leo nisl volutpat metus, eget venenatis dui est a sapien. Nunc ut efficitur turpis. Maecenas sed dignissim lectus, eu feugiat nunc.</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="empty_title">Oops.. It\'s Empty</string>
+    <string name="empty_desc">There\'s nothing here...</string>
+    <string name="common_refresh">Refresh</string>
+</resources>

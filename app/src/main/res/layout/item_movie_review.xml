@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    tools:background="@color/background">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv_user_avatar"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/img_avatar_placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/Theme.AlfagiftTest.ImageView.Avatar" />
+
+    <TextView
+        android:id="@+id/tv_user_score"
+        style="@style/Theme.AlfagiftTest.TextView.Regular.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@id/siv_user_avatar"
+        app:layout_constraintStart_toStartOf="@id/siv_user_avatar"
+        app:layout_constraintTop_toBottomOf="@id/siv_user_avatar"
+        tools:text="6.3" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        style="@style/Theme.AlfagiftTest.TextView.SemiBold.14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/siv_user_avatar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="User's Name Goes Here" />
+
+    <TextView
+        android:id="@+id/tv_user_review"
+        style="@style/Theme.AlfagiftTest.TextView.Regular.12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/siv_user_avatar"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+        tools:text="@string/lorem_ipsum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
